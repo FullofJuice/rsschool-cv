@@ -23,6 +23,16 @@ _Although I am new to programming, I have a basic understanding of HTML and CSS.
 - HTML
 - CSS
 
+## Experience
+
+**English Tutor (4 years)**
+
+### **Responsibilities**:
+
+- _Conducting English language lessons_
+- _Teaching grammar and basic concepts to teenagers_
+
+Taught children the technique of memorizing words in English
 
 ## Language Skill
 
