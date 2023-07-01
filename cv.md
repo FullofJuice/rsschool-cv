@@ -4,9 +4,9 @@
 
 ## Location: Ukraine, Kyiv
 
-## Telegram https://t.me/Holy_Rain
+## [Telegram](https://t.me/Holy_Rain)
 
-##  Email lehajuiced1996@gmail.com
+## [Email](mailto:lehajuiced1996@gmail.com)
 
 ## Objective
 
@@ -31,8 +31,7 @@ _Although I am new to programming, I have a basic understanding of HTML and CSS.
 
 - _Conducting English language lessons_
 - _Teaching grammar and basic concepts to teenagers_
-
-Taught children the technique of memorizing words in English
+- _Taught children the technique of memorizing words in English._
 
 ## Language Skill
 
