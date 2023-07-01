@@ -8,6 +8,8 @@
 
 ## [Email](mailto:lehajuiced1996@gmail.com)
 
+## Discord _Alex (@FullofJuice)_  :wink:
+
 ## Objective
 
 _I aim to become a front-end developer as I find it an interesting and in some way comfortable job._
