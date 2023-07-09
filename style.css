@@ -150,28 +150,6 @@ footer {
   padding-bottom: 20px;
 }
 
-/* @media (max-width: 750px) {
-
-  header, footer{
-    width: 100%;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-
-  .social-links li {
-    align-items: flex-start;
-    transition: all 1s ease;
-    transform: scale(200%) rotate(360deg);
-    margin: auto 25px;
-  }
-
-} */
 
 @media (max-width: 750px) {
   html {
