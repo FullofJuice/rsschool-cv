@@ -9,45 +9,41 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="container">
     <header>
       <h1>CV</h1>
       <nav>
         <ul>
-          <li><a href="https://t.me/Holy_Rain" target="_blank">
-            <img src="img/48/telegram-48x.svg" alt="telegram-logo">
-          </a>
-        </li>
-          <li><a href="mailto:lehajuiced1996@gmail.com" target="_blank">
-            <img src="img/48/google-х48.svg" alt="google-logo" title="Write me an email">
-          </a>
-          </li>
-          <li>
-            <a href="https://discordapp.com/users/627466020986028044" target="_blank">
-              <img src="img/48/discord-x48.svg" alt="discord-logo">
-            </a>
-          </li>
+          <li><a href="#name">Name</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#ed-lang">Education and Language</a></li>
+          <li><a href="#about">About myself</a></li>
+          <li><a href="#completed-proj">Completed Projects</a></li>
+          <li><a href="#code-example">Code Example</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h2>Name</h2>
+        <h2 id="name">Name</h2>
         <p>Oleksii Yakubenko</p>
       </section>
       <section class="media-center">
         <h2>Avatar</h2>
         <figure>
-          <img src="img/Avatar.jpg" alt="My Avatar">
+          <img src="assets/img-svg/Avatar.jpg" alt="My Avatar">
           <figcaption>My Avatar</figcaption>
         </figure>
       </section>
       <section>
-        <h2>Location</h2>
+        <h2 id="location">Location</h2>
         <p>Ukraine, Kyiv</p>
       </section>
       <section>
-        <h2>Objective</h2>
+        <h2 id="objective">Objective</h2>
         <p>
           I aim to become a front-end developer as I find it an interesting and
           in some way comfortable job.
@@ -60,7 +56,7 @@
         </p>
       </section>
       <section class="skills">
-        <h2>Skills</h2>
+        <h2 id="skills">Skills</h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -68,7 +64,7 @@
         </ul>
       </section>
       <section>
-        <h2>Experience</h2>
+        <h2 id="experience">Experience</h2>
         <p>English Tutor (4 years)</p>
         <h3>Responsibilities</h3>
         <p>
@@ -82,7 +78,7 @@
         </p>
       </section>
       <section class="educat-lang">
-        <h2>Education and Language Skill</h2>
+        <h2 id="ed-lang">Education and Language Skill</h2>
         <h3>Education</h3>
         <ul>
           <li>Kyiv Financial and Economic College, Finance and Credit Department (2012-2016)</li>
@@ -92,7 +88,7 @@
         <p>B1 level</p>
       </section>
       <section>
-        <h2>About myself</h2>
+        <h2 id="about">About myself</h2>
         <p>
           Hello, I'm 26, and my hobbies are fishing, watching series, and cartoons (Disney or Illumination).<br>
           Not too long ago started to follow Falling In Reverse. Try listen their music, I believe you will like it!  
@@ -100,17 +96,16 @@
         </p>
       </section>
       <section>
-        <h2>Выполненные учебные проекты</h2>
+        <h2 id="completed-proj">Completed educational projects</h2>
           <div class="completed-project">
             <ul>
               <li><a href="https://fullofjuice.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
-              <li><a href="https://fullofjuice.github.io/rsschool-cv/">CV#2. HTML, CSS & Git Basics</a></li>
-              <!-- <li><a href=""></a>CV#3. CV. Cross-Check</li> -->
+              <li><a href="https://fullofjuice.github.io/rsschool-cv/">CV#3. CV. Cross-Check</a></li>
             </ul>
           </div>
       </section>
       <section>
-        <h2 class="code-example">Пример кода</h2>
+        <h2 class="code-example" id="code-example">Code Example</h2>
         <pre>
           <code>
             &lt;style&gt;
@@ -125,7 +120,7 @@
               &#125;
             &lt;/style&gt;
             &lt;p class="image-text1"&gt; Свойство background-clip закрашивает фон внутри текста. &lt;br&gt;
-            Не забудьте использовать вместе с ним color: transparent;!
+            Не забудьте использовать вместе с ним color: transparent;
             &lt;/p&gt;
           </code>
         </pre>
@@ -134,28 +129,28 @@
     <footer>
       <div class="rs-logo">
           <a href="https://rs.school/js-stage0/" target="_blank">
-            <img src="img/rs-school-logo.svg" alt="Course logo" title="Course link">
+            <img src="assets/img-svg/rs-school-logo.svg" alt="Course logo" title="Course link">
           </a>
       </div>
       <div class="social-links">
         <nav>
           <ul>
             <li><a href="https://t.me/Holy_Rain" target="_blank">
-              <img src="img/32/telegram-х32.svg" alt="telegram-logo">
+              <img src="assets/img-svg/32/telegram-х32.svg" alt="telegram-logo">
             </a>
              </li>
              <li><a href="mailto:lehajuiced1996@gmail.com" target="_blank">
-               <img src="img/32/google-х32.svg" alt="google-logo" title="Write me an email">
+               <img src="assets/img-svg/32/google-х32.svg" alt="google-logo" title="Write me an email">
             </a>
             </li>
             <li> 
                <a href="https://discordapp.com/users/627466020986028044" target="_blank">
-                <img src="img/32/discord-х32.svg" alt="discord-logo">
+                <img src="assets/img-svg/32/discord-х32.svg" alt="discord-logo">
               </a>
             </li>
             <li>
               <a href="https://github.com/FullofJuice" target="_blank">
-                <img src="img/32/github-x32.svg" alt="github">
+                <img src="assets/img-svg/32/github-x32.svg" alt="github">
               </a>
             </li>
           </ul>
