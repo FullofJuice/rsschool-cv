@@ -213,3 +213,7 @@ header {
 footer {
   box-shadow: 0px -7px 7px 0px rgba(22, 22, 21, 0.82);
 }
+
+.name {
+  margin-top: 15px;
+}
