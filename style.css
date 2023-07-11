@@ -31,8 +31,13 @@ header h1 {
 header ul {
   display: flex;
   flex-direction: row; 
-  justify-content: flex-start;
-  animation: move 20s ease infinite;
+  justify-content: center;
+  animation: move 10s linear infinite;
+}
+
+header a {
+  font-size: 20px;
+  color: rgb(37, 31, 40);
 }
 
 header ul:hover {
@@ -44,8 +49,12 @@ header ul:hover {
     transform: translate(0%);
   }
 
-  50% {
-    transform: translate(calc(100% - 249px));
+  33% {
+    transform: translate(-60px);
+  }
+
+  66% {
+    transform: translate(60px);
   }
 
   100% {
@@ -150,37 +159,49 @@ footer {
   padding-bottom: 20px;
 }
 
-
 @media (max-width: 750px) {
-  html {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  }
-  body {
-    text-align: center;
-  }
-
   header, footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
   }
 
   header ul {
-    animation:  none;
+    animation: none;
   }
 
-  h1, h2, h3, p, li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  header li {
+    margin: auto 5px;
+  }
+}
+
+:target {
+  animation: scale-animation 2s;
+}
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
   }
 
-  .media-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  25% {
+    color: rgb(155, 35, 155);
   }
+
+  50% {
+    margin-left: 20px;
+    transform: translate(300px) scale(1.5);
+    color: rgb(189, 57, 189);
+  }
+
+  75% {
+    color: rgb(210, 44, 210);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
