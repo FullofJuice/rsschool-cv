@@ -30,3 +30,23 @@ _Even though I am almost new to programming, I have a basic understanding of HTM
 - CSS
 - JS
 - ~~Git~~ (a little)
+
+## Code examples
+
+```javascript
+const greeting = (name, surname) => {
+  return `Your name is ${name}? What a cool name! And you said your surname is ${surname}? I am so envy! I wish I had surname like yours!`;
+};
+
+greeting("Oleksii", "Yakubenko");
+```
+
+## Language Skill
+
+### **English**: **B1 level**
+
+### Can easily understand ~~A-1~~ level of some kids!
+
+## Experience
+
+**English Tutor (4 years)**
