@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
@@ -77,7 +78,113 @@ ul {
   color: #000000;
 }
 
+.main {
+  padding: 20px 0 ;
+}
+
 .main-title {
-  font: bold 64px "Roboto", sans-serif;
+  /* margin-top: 10px; */
+  font: 700 56px "Roboto", sans-serif;
   text-align: center;
+  margin: 0 auto;
+}
+
+.intro {
+}
+
+.my-introduction {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-avatar {
+  border-radius: 50%;
+}
+
+
+.contacts .main-nav-list {
+  margin-top: 15px;
+}
+
+.contacts .main-nav-item {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contacts .main-nav-item .main-nav-link {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.about .about-aim {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.skills .skills-list {
+  margin-top: 15px;
+}
+
+.skills .skills-item {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.skills .skills-item .skills-decor {
+  color: rgb(2, 180, 245);
+}
+
+.code .task-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.code .code-example {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(159, 159, 159, 0.7);
+  padding: 20px 10px;
+}
+
+
+.projects .library-project {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .library-project .library-descr {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+
+.education .education-title {
+  margin-top: 10px;
+}
+
+.education .education-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+
+.language .language-title {
+  margin-top: 10px;
+}
+
+.language .language-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 300;
 }
