@@ -1,92 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-nav">
+        <a href="https://rs.school/courses/javascript-ru" class="logo-link">
+          <img src="images/logo/logo-rsschool.png" alt="school-logo" class="header-logo" style="height: 50px" />
+        </a>
+        <nav class="top-menu">
+          <li class="top-menu-item">
+            <a href="#" class="top-menu-link">Contacts</a>
+          </li>
+          <ul class="top-menu-list">
+            <li class="top-menu-item"><a href="#" class="top-menu-link">About</a></li>
+            <li class="top-menu-item"><a href="#" class="top-menu-link">Skills</a></li>
+            <li class="top-menu-item"><a href="#" class="top-menu-link">Code</a></li>
+            <li class="top-menu-item">
+              <a href="#" class="top-menu-link">Projects</a>
+            </li>
+            <li class="top-menu-item">
+              <a href="#" class="top-menu-link">Language</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="main-title">CV</h1>
+
+    <section class="intro">
       <div class="container">
-        <div class="header-nav">
-          <a href="https://rs.school/courses/javascript-ru" class="logo-link">
-            <img
-              src="images/logo/logo-rsschool.png"
-              alt="school-logo"
-              class="header-logo"
-              style="height: 50px"
-            />
-          </a>
-          <nav class="top-menu">
-            <ul class="top-menu-list">
-              <li class="top-menu-item"><a href="#" class="top-menu-link">About</a></li>
-              <li class="top-menu-item">
-                <a href="#" class="top-menu-link">Contacts</a>
-              </li>
-              <li class="top-menu-item"><a href="#" class="top-menu-link">Skills</a></li>
-              <li class="top-menu-item"><a href="#" class="top-menu-link">Code</a></li>
-              <li class="top-menu-item">
-                <a href="#" class="top-menu-link">Projects</a>
-              </li>
-              <li class="top-menu-item">
-                <a href="#" class="top-menu-link">Language</a>
-              </li>
-            </ul>
-          </nav>
+        <h2 class="intro-name">Oleksii Yakubenko</h2>
+        <img src="" alt="" class="intro-avatar">
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts-title">Contacts</h2>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item">
+              <a href="https://t.me/Holy_Rain" class="main-nav-link">Telegram</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="mailto:lehajuiced1996@gmail.com" class="main-nav-link">Email</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="https://discordapp.com/users/627466020986028044" class="main-nav-link">Discord</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2 class="about-title">About</h2>
+        <p class="about-location">Ukraine, Kyiv</p>
+        <p class="about-aim"></p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <h2 class="skills-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item skill-little">JS basic</li>
+          <li class="skills-item skill-little">Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="code">
+      <div class="container">
+        <h2 class="code-title">Code</h2>
+        <div class="code-block">
+          <p class="task-descr">
+            Your job is to write a function, which takes three integers a, b, and c as
+            arguments, and returns True if exactly two of the three integers are
+            positive numbers (greater than zero), and False - otherwise.
+          </p>
+          <pre class="code-example">
+              function twoArePositive(a, b, c) {
+                if (a > 0 && b > 0 && c > 0) {
+                return false;
+                } 
+                return ((a > 0 && b > 0) || (b > 0 && c > 0) || (a > 0 && c > 0)); 
+              }</pre>
         </div>
       </div>
-    </header>
-    <main class="main">
+    </section>
+
+    <section class="projects">
       <div class="container">
-        <h1 class="main-title">CV</h1>
-        <section class="about">
-          <h2 class="about-title">About</h2>
-          <p class="about-name">Oleksii Yakubenko</p>
-          <p class="about-location">Ukraine, Kyiv</p>
-        </section>
-        <section class="contacts">
-          <h2 class="contacts-title">Contacts</h2>
-          <nav class="main-nav">
-            <ul class="main-nav-list">
-              <li class="main-nav-item">
-                <a href="https://t.me/Holy_Rain" class="main-nav-link">Telegram</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="mailto:lehajuiced1996@gmail.com" class="main-nav-link">Email</a>
-              </li>
-              <li class="main-nav-item">
-                <a
-                  href="https://discordapp.com/users/627466020986028044"
-                  class="main-nav-link"
-                  >Discord</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </section>
-        <section class="skills">
-          <h2 class="skills-title">Skills</h2>
-          <ul class="skills-list">
-            <li class="skills-item">HTML</li>
-            <li class="skills-item">CSS</li>
-            <li class="skills-item skill-little">JS</li>
-            <li class="skills-item skill-little">GIT</li>
-          </ul>
-        </section>
-        <section class="code">
-          <h2 class="code-title">Code</h2>
-        </section>
-        <section class="projects">
-          <h2 class="projects-title">Projects</h2>
-        </section>
-        <section class="language">
-          <h2 class="language-title">Language</h2>
-        </section>
+        <h2 class="projects-title">Projects</h2>
+        <div class="library-project">
+          <a href="https://spectacular-biscuit-79153a.netlify.app/" class="project-link">
+            <img src="images/image/project-library-example.png" alt="" class="library-image"
+              style="height: 200px" /></a>
+          <p class="library-descr">Library project with HTML, CSS and JS</p>
+        </div>
       </div>
-    </main>
-    <footer class="footer">
-      <div class="container"></div>
-    </footer>
-  </body>
+    </section>
+
+    <section class="education">
+      <h2 class="education-title">Education
+        <p class="education-descr">Kyiv Financial and Economic College, Finance and Credit Department (2012-2016)</p>
+      </h2>
+    </section>
+    <section class="language">
+      <div class="container">
+        <h2 class="language-title">Language</h2>
+        <p class="language-descr">English: B1 level</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container"></div>
+  </footer>
+</body>
+
 </html>

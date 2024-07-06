@@ -32,7 +32,8 @@
 }
 
 body {
-  background-image: url("../venatg3h.z4e.jpg") no-repeat;
+  /* background-image: url("../venatg3h.z4e.jpg"); */
+  background-color: rgba(168, 145, 145, 0.7);
 }
 
 .container {
