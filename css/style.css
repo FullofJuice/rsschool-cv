@@ -43,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+}
+
 ul {
   list-style-type: none;
 }
@@ -57,8 +61,9 @@ h2 {
 }
 
 .header-nav {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 5px 0;
 }
 
 .top-menu {
@@ -72,7 +77,7 @@ h2 {
 }
 
 .top-menu .top-menu-list .top-menu-item:not(:first-child) {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .top-menu .top-menu-list .top-menu-link {
@@ -124,6 +129,17 @@ transform: scale(120%) rotateY(180deg) translateY(10px);
 .contacts .main-nav-item .main-nav-link {
   font-family: "Roboto";
   font-weight: 300;
+  color: black;
+}
+
+.contacts .main-nav-item .main-nav-link:visited {
+  color: black;
+}
+
+.main-nav-link span {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: calc(8px);
 }
 
 .about .about-aim {
@@ -132,6 +148,10 @@ transform: scale(120%) rotateY(180deg) translateY(10px);
   font-size: 18px;
   line-height: 26px;
   font-weight: 300;
+}
+
+.skills {
+  margin-top: 5px;
 }
 
 .skills .skills-list {
@@ -146,6 +166,7 @@ transform: scale(120%) rotateY(180deg) translateY(10px);
 
 .skills .skills-item .skills-decor {
   color: rgb(2, 180, 245);
+  font-size: 22px;
 }
 
 .code .task-descr {
@@ -158,10 +179,15 @@ transform: scale(120%) rotateY(180deg) translateY(10px);
 .code .code-example {
   margin-left: 10px;
   margin-top: 10px;
-  background-color: rgba(159, 159, 159, 0.7);
+  background-color: rgba(159, 159, 159, 0.6);
   padding: 20px 10px;
+  font-size: 18px;
 }
 
+
+.projects {
+  margin-top: 5px;
+}
 
 .projects .library-project {
   margin-top: 10px;
@@ -188,8 +214,8 @@ transform: scale(120%) rotateY(180deg) translateY(10px);
 }
 
 
-.language .language-title {
-  margin-top: 10px;
+.language {
+  margin-top: 5px;
 }
 
 .language .language-descr {
