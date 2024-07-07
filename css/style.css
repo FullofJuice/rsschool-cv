@@ -1,0 +1,379 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype"),
+    url("/fonts/Roboto-Regular.woff") format("woff"),
+    url("/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Light.ttf") format("truetype"),
+    url("/fonts/Roboto-Light.woff") format("woff"),
+    url("/fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Bold.ttf") format("truetype"),
+    url("/fonts/Roboto-Bold.woff") format("woff"),
+    url("/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  line-height: 140%;
+}
+
+.header {
+  background-color: rgba(52, 47, 47, 0.5);
+}
+
+.header-nav {
+  padding: 5px 0;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.top-menu .top-menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-menu .top-menu-list .top-menu-item:not(:first-child) {
+  margin-left: 25px;
+}
+
+.top-menu .top-menu-list .top-menu-link {
+  font: 400 20px "Roboto", sans-serif;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+}
+
+.top-menu .top-menu-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.top-menu .top-menu-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+
+.main {
+  padding: 20px 0 ;
+}
+
+.main-title {
+  font: 700 56px "Roboto", sans-serif;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.intro {
+  position: absolute;
+  left: calc(50% - 130px);
+  padding-top: 5px;
+}
+
+.my-introduction {
+  transition: all 2s ease;
+}
+
+.my-introduction:hover {
+transform: scale(120%) rotateY(180deg) translateY(10px);
+}
+
+.intro-avatar {
+  border-radius: 50%;
+  width: 220px;
+}
+
+
+.contacts .main-nav-list {
+  margin-top: 15px;
+}
+
+.contacts .main-nav-item {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contacts .main-nav-item .main-nav-link {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: black;
+  height: 100%;
+  display: inline-block;
+}
+
+.contacts .main-nav-item .main-nav-link:visited {
+  color: black;
+}
+
+.main-nav-link span {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: calc(8px);
+  font-size: 18px;
+}
+
+.main-nav-link:hover span {
+  font-weight: 700;
+  color: rgba(45, 134, 134, 0.8);
+}
+
+
+
+.about .about-aim {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.skills {
+  margin-top: 5px;
+}
+
+.skills .skills-list {
+  margin-top: 15px;
+}
+
+.skills .skills-item {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.skills .skills-item .skills-decor {
+  color: rgb(2, 180, 245);
+  font-size: 22px;
+}
+
+.code .task-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.code .code-example {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(159, 159, 159, 0.6);
+  padding: 20px 10px 20px 0;
+  font-size: 18px;
+  max-width: 60%;
+}
+
+
+.projects {
+  margin-top: 5px;
+}
+
+.projects-examples {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.projects .library-project {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .library-project .library-descr {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.projects .cv1-project {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .cv1-project .cv1-descr {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+.education .education-title {
+  margin-top: 10px;
+}
+
+.education .education-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+
+.language {
+  margin-top: 5px;
+}
+
+.language .language-descr {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.language .language-descr .language-name {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+:target {
+  animation: targets-bloom 6s ease;
+}
+
+@keyframes targets-bloom {
+  0% {
+    text-shadow: #4886f9 2px 1px 10px;
+  }
+  25% {
+    text-shadow: #fc0 1px 2px 10px;
+  }
+  50% {
+    text-shadow: #fc0 1px 2px 10px;
+  }
+  75% {
+    text-shadow: #fc0 1px 2px 10px;
+  }
+  100% {
+    text-shadow: #4886f9 2px 1px 10px;
+  }
+}
+
+
+.footer {
+  background-color: rgba(52, 47, 47, 0.5)
+}
+
+.footer .footer-nav {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-nav .created-date {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+
+@media (max-width: 1000px) {
+  .code .code-example {
+    max-width: 75%;
+  }
+ }
+
+@media (max-width: 845px) { 
+  .code .code-example {
+    max-width: 85%;
+  }
+
+  .projects .cv1-project {
+    margin-left: 20px;
+  }
+}
+
+
+@media (max-width: 789.4px) { 
+  .projects .cv1-project {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 686px) {
+  .header .top-menu .top-menu-item:last-child {
+    margin-top: 10px;
+  }
+
+  .top-menu .top-menu-list {
+    align-items: baseline;
+  }
+
+  .code .code-example {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 620px) {
+  .code .code-example {
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+  }
+
+  .intro .my-introduction {
+  margin-left: 30px;
+  }
+
+  .intro .intro-avatar {
+    width: 180px;
+  }
+}
